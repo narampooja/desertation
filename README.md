@@ -59,7 +59,7 @@ How to Run the Code
 
 Step 1: Clone the Repository
 Clone this repository to your local machine:
-git clone https://github.com/your-username/disease-detection.git
+git clone https://github.com/narampooja/desertation.git
 
 cd disease-detection
 
