@@ -18,6 +18,7 @@ Implements models such as CNN, VGG, ResNet, and EfficientNet.
 Provides visualizations of predictions on test samples.
 
 Installation
+
 Prerequisites
 Make sure the following are installed:
 Python (>= 3.8)
@@ -30,11 +31,15 @@ scikit-learn
 Installing Dependencies
 
 Step 1: Download Datasets
+
 Chest X-ray Dataset: Download from Kaggle: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
 Melanoma Dataset: Download from Kaggle: https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images
 
 Step 2: Organize the Data
+
 Ensure the data is organized into the following structure:
+
 data/
 |-- chest_xray/
 |   |-- train/
@@ -51,9 +56,11 @@ Normalize pixel values to the range [0, 1].
 The code includes preprocessing steps, so you just need to ensure the datasets are placed correctly.
 
 How to Run the Code
+
 Step 1: Clone the Repository
 Clone this repository to your local machine:
 git clone https://github.com/your-username/disease-detection.git
+
 cd disease-detection
 
 Step 2: Prepare the Environment
@@ -62,6 +69,7 @@ Ensure the datasets are organized as described in the Dataset Preparation sectio
 Step 3: Run the Training Script
 To train the CNN model, execute the following command:
 python train_combined_model.py
+
 This script will:
 Preprocess and augment the data.
 Train the CNN model on the combined dataset.
