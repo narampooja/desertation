@@ -40,15 +40,15 @@ Step 2: Organize the Data
 
 Ensure the data is organized into the following structure:
 
-data/
-|-- chest_xray/
-|   |-- train/
-|   |-- test/
-|   |-- val/
-|-- melanoma/
-|   |-- train/
-|   |-- test/
-|-- combined/
+data-
+----- chest_xray/
+----- train/
+----- test/
+----- val/
+----- melanoma/
+----- train/
+----- test/
+----- combined/
 
 Step 3: Preprocess Images
 Resize all images to 128x128 pixels.
